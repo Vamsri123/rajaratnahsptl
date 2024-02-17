@@ -2288,8 +2288,12 @@ body{
 }
 .news-single .news-head{}
 .news-single .news-head img{
-	width:100%;
-	height:100%;
+	width:500px;
+	height:500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 .news-single .news-title {
 	font-size: 25px;
@@ -2367,6 +2371,8 @@ body{
 }
 .news-single .image-gallery .single-image {
 	overflow: hidden;
+	width: 100%;
+	height: 280px;
 }
 .news-single .image-gallery .single-image:hover img{
 	-webkit-transform:scale(1.2);
